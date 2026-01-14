@@ -1,0 +1,9 @@
+llama-index-llms-openai
+llama-index-readers-file
+
+pymupdf
+
+# Azure OpenAI
+openai==2.0.1
+azure-core==1.35.1
+
