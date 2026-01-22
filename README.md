@@ -59,7 +59,7 @@ cd pdf-embeddings-system
 
 2. **Create a virtual environment**
 ```bash
-python -m venv venv
+py -3.11 -m venv venv
 
 # On Windows
 venv\Scripts\activate
@@ -121,7 +121,6 @@ This will:
 Query a specific PDF collection:
 
 ```bash
-python scripts/query.py
 ```
 
 Or use it programmatically:
