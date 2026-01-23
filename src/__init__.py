@@ -4,13 +4,15 @@ PDF Embeddings System - Source Package
 from .pdf_loader import PDFLoader
 from .embeddings import EmbeddingsManager
 from .chunker import DocumentChunker
-from .query_engine import QueryEngine, MultiCollectionQueryEngine
+from .metadata_manager import MetadataManager
+from .storage_manager import StorageManager
+from .storage_manager import StorageManager
 
 __all__ = [
     'PDFLoader',
-    'MetadataManager',
     'EmbeddingsManager',
     'DocumentChunker',
-    'QueryEngine',
+    'MetadataManager',
+    'StorageManager',
     'MultiCollectionQueryEngine',
 ]
